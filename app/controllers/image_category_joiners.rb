@@ -1,0 +1,2 @@
+class ImageCategoryJoiner < ApplicationController
+end
