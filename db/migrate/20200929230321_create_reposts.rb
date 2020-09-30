@@ -1,6 +1,6 @@
-class CreateShares < ActiveRecord::Migration[6.0]
+class CreateReposts < ActiveRecord::Migration[6.0]
   def change
-    create_table :shares do |t|
+    create_table :reposts do |t|
       t.integer :user_id
       t.integer :image_id
 

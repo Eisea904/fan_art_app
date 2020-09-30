@@ -1,4 +1,4 @@
-class Share < ApplicationRecord
+class Repost < ApplicationRecord
     belongs_to :user
     belongs_to :image
 end

@@ -1,4 +1,4 @@
 class User < ApplicationRecord
     has_many :images
-    has_many :shares
+    has_many :reposts
 end

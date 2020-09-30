@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-    has_many :imageCategoryJoiners
+    has_many :image_category_joiners
 end
