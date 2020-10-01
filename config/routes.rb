@@ -3,6 +3,6 @@ Rails.application.routes.draw do
     resources :users
     resources :images, only: [:index, :show, :create]
     resources :categories, only: [:index, :show, :create]
-    resources :shares, only: [:create]
-    resources :image_category_joiners, only: [:create]
+    resources :reposts, only: [:show, :create]
+    resources :image_category_joiners, only: [:show, :create]
 end

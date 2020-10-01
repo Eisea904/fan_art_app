@@ -19,11 +19,11 @@ ImageCategoryJoiner.reset_pk_sequence
 
 #Users
 
-beemo  = User.create(username: "Beemo", bio: "Real Boy Only", profile_pic_url: "https://ih1.redbubble.net/image.1150248393.9778/st,small,845x845-pad,1000x1000,f8f8f8.jpg")
-user_2 = User.create(username: "inuyasha_fan_01", bio: "I swear I'm not a furry, bro", profile_pic_url: "")
-user_3 = User.create(username: "i_like_animal_pictures_02", bio: "Cute Vibes Only", profile_pic_url: "")
-user_4  = User.create(username: "Smitty Werbenjagermanjensen", bio: "He Was Number 1", profile_pic_url: "")
-user_5  = User.create(username: "we_love_to_ship_it_04", bio: "Fujoshi", profile_pic_url: "")
+beemo  = User.create(username: "Beemo", bio: "Real Boys Only", profile_pic_url: "https://ih1.redbubble.net/image.1150248393.9778/st,small,845x845-pad,1000x1000,f8f8f8.jpg")
+user_2 = User.create(username: "inuyasha_fan_01", bio: "Sequel??", profile_pic_url: "https://media.comicbook.com/2020/09/inuyasha-sequel-1238564-1280x0.jpeg")
+user_3 = User.create(username: "Cute Animals", bio: "I watch Beastars for the Plot", profile_pic_url: "https://i.redd.it/mls08or2iab51.jpg")
+user_4 = User.create(username: "Smitty Werbenjagermanjensen", bio: "He Was Number 1", profile_pic_url: "https://i.kym-cdn.com/entries/icons/facebook/000/017/564/40b.jpg")
+user_5 = User.create(username: "we_love_to_ship_it_04", bio: "Fujoshi", profile_pic_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQFmJ1jMo1fKFGRSzANdlBqvnQ7xqBPQhEPOA&usqp=CAU")
 
 #Images
 
